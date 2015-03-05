@@ -1,0 +1,12 @@
+name: Android-GooglePlay
+version: 0.0.1
+description: Deploy Android application to Google Play Store
+kyewords:
+  - deploy
+  - publish
+  - google play
+  - android
+properties:
+  track:
+    type: String
+    required: true
