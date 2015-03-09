@@ -7,6 +7,21 @@ kyewords:
   - google play
   - android
 properties:
-  track:
+  track_name:
+    type: String
+    required: true
+  application_name:
+    type: String
+    required: true
+  package_name:
+    type: String
+    required: true
+  service_account_email:
+    type: String
+    required: true
+  service_account_key_base64:
+    type: String
+    required: true
+  apk_file_path:
     type: String
     required: true
