@@ -18,6 +18,9 @@ object Settings {
 
   lazy val APK_FILE = new File(get("APK_FILE_PATH"))
 
+  /**
+   * Track for uploading the apk, can be 'alpha', beta', 'production' or 'rollout'
+   */
   lazy val TRACK_NAME = get("TRACK_NAME")
 
   lazy val MIME_TYPE_APK = "application/vnd.android.package-archive"
