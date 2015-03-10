@@ -12,9 +12,9 @@ object Settings {
 
   lazy val PACKAGE_NAME = get("PACKAGE_NAME")
 
-  lazy val SERVICE_ACCOUNT_EMAIL = get("ACCOUNT_EMAIL")
+  lazy val SERVICE_ACCOUNT_EMAIL = get("SERVICE_ACCOUNT_EMAIL")
 
-  lazy val SERVICE_ACCOUNT_KEY = new File(get("ACCOUNT_KEY_FILE_PATH"))
+  lazy val SERVICE_ACCOUNT_KEY = new File(get("SERVICE_ACCOUNT_KEY_FILE_PATH"))
 
   lazy val APK_FILE = new File(get("APK_FILE_PATH"))
 
