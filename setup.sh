@@ -7,4 +7,3 @@ type sbt || (
 )
 
 export SBT_OPTS="-XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:PermSize=256M -XX:MaxPermSize=512M -Xss1M"
-sbt --version
